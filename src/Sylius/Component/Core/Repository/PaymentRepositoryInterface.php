@@ -25,5 +25,5 @@ interface PaymentRepositoryInterface extends RepositoryInterface
      *
      * @return Pagerfanta
      */
-    public function createFilterPaginator(array $criteria = null, array $sorting = null);
+    public function createFilterPaginator(array $criteria = [], array $sorting = []);
 }
