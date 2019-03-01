@@ -39,7 +39,7 @@ class CustomerType extends CustomerProfileType
     /**
      * {@inheritdoc}
      */
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options = [])
     {
         parent::buildForm($builder, $options);
         $builder
